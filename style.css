@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato';
+}
+
+/* nav-bar section */
+
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(236, 35, 78, 0.212);
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: rgb(134, 0, 146);
+    font-size: large;
+}
+
+
+
