@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Lato';
@@ -6,23 +6,67 @@
 
 /* nav-bar section */
 
-.navbar-container{
+.navbar-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background: rgba(236, 35, 78, 0.212);
 }
-.nav-list{
+
+.nav-list {
     list-style: none;
     display: flex;
     gap: 20px;
 }
 
-.nav-list a{
+.nav-list a {
     text-decoration: none;
     color: rgb(134, 0, 146);
     font-size: large;
 }
 
+/* banner section */
 
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    background-color: rgba(229, 84, 115, 0.10);
+    height: 100vh;
+    padding: 50px 90px;
+    padding-bottom: 0px;
+}
+
+.banner-info {
+    text-align: left;
+    width: 100%;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.banner-decription {
+    margin-top: 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.button-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+}
+
+.banner-img {
+    width: 50%;
+}
 
