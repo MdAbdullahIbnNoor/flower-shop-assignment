@@ -239,6 +239,7 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
+    margin-bottom: 125px;
 }
 
 .latest-deal-info {
@@ -262,3 +263,28 @@
     gap: 20px;
 }
 
+/* Footer Section */
+
+footer{
+    background: #111010;   
+}
+
+.footer-section{
+    color: #FFF;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding: 100px;
+}
+
+.footer-section h1{
+    color: #FFF;
+}
+
+.footer-section p{
+    color: #FFF;
+}
+
+.flower-span{
+    color:#E55473;
+}
