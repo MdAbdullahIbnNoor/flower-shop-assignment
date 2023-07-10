@@ -194,7 +194,7 @@
     color: #E55473;
 }
 
-.offer-text p{
+.offer-text p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -211,18 +211,54 @@
     margin-bottom: 45px;
 }
 
-.insta-img-container{
+.insta-img-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
     /* width: 70%; */
     margin: 0px 120px;
+    margin-bottom: 125px;
 }
 
-.insta-img-container img{
+.insta-img-container img {
     height: 300px;
     width: 290px;
 }
 
+/* Latest Deals Section */
+
+.latest-deal-section {
+    height: 400px;
+    width: 82%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('/Flower Asset/Rectangle 9.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.latest-deal-info {
+    text-align: center;
+    padding: 18%;
+    width: 80%;
+    /* margin: auto; */
+}
+
+.input-email {
+    width: 500px;
+    height: 62px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding-left: 20px;
+}
+
+.input-field{
+    display: flex;
+    gap: 20px;
+}
 
