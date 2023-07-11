@@ -225,7 +225,49 @@
     height: 300px;
     width: 290px;
 }
+/* Blog Section */
 
+.blog-section{
+    text-align: center;
+    width: 84%;
+    margin: auto;
+    margin-bottom: 110px;
+}
+
+.blog-container{ 
+    margin-top: 25px;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blog{
+    width: 30%;
+    text-align: left;
+}
+
+.blog img, h3, h5, p, a{
+    margin-bottom: 10px;
+}
+
+.blog h3{
+    color: #111010;
+    font-size: 17px;
+}
+
+.blog h5{
+    color: #11101086;
+}
+
+.blog p{
+    color: #31303094;
+    font-size: 15px;
+}
+
+.blog a{
+    text-decoration: none;
+    color: #E55473;
+}
 /* Latest Deals Section */
 
 .latest-deal-section {
