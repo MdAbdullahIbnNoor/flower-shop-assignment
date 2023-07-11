@@ -233,7 +233,7 @@
     width: 82%;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('/Flower Asset/Rectangle 9.png');
+    background-image: url("./Flower Asset/Rectangle 9.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
